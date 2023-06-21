@@ -2653,7 +2653,7 @@
     (property "Reference" "SWS1" (at 63.5 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Switch Stabiliser" (at 63.5 210.82 0)
+    (property "Value" "6u Switch Stabiliser" (at 63.5 210.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.00u" (at 60.96 209.55 0)
@@ -4372,6 +4372,30 @@
       (project "keyboardTest"
         (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
           (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 60.96 217.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d1357a7e-67f7-4186-8a1a-3db01ca5645c)
+    (property "Reference" "SWS2" (at 63.5 215.9 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "8u Switch Stabiliser" (at 63.5 218.44 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_8.00u" (at 60.96 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 217.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboardTest"
+        (path "/f35e9616-f481-4cdb-9e32-caf70bd322dd"
+          (reference "SWS2") (unit 1)
         )
       )
     )
