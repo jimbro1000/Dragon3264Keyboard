@@ -9,6 +9,8 @@ readily available keycaps.
 
 ![render of keyboard layout](./keyboard-layout.png)
 
+![render of keyboard switch plate](./6u_switch_plate.svg)
+
 ## Changes to the original ##
 
 The keyboard matrix includes a diode alongside each switch to 
