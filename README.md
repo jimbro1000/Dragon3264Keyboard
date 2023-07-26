@@ -11,6 +11,20 @@ readily available keycaps.
 
 ![render of keyboard switch plate](./6u_switch_plate.svg)
 
+## Status ##
+
+The first draft of the board has been produced for testing
+
+The good bits:
+* The layout fits the keyboard aperture in the case
+* The height of the board appears to be correct at 20mm higher than
+the original
+
+The bad bits:
+* The first draft is 5.3mm too wide - but the layout is all referenced
+from the top left of the board and this is correct. The only fault is
+the right hand edge and the right hand mounting point
+
 ## Changes to the original ##
 
 The keyboard matrix includes a diode alongside each switch to 
@@ -97,7 +111,7 @@ Overcoming the difference in height needs the pcb to sit higher,
 the simplest option (at the moment) is to use two layers of
 boards. The first sits at the normal height and uses the original
 mounting points. The second board is mounted to the first using
-spacers (the pcb design includes holes for M3 sized spacers to be
+spacers (the pcb design includes holes for M5 sized spacers to be
 mounted already).
 
 To make the keyboard really robust it should also have a
